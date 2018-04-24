@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  JELNavigationBar.h
 //  PullTableViewHeaderBigger
 //
 //  Created by jerryliao on 2018/4/21.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController <UITableViewDelegate, UITableViewDataSource, UIScrollViewDelegate>
+@interface JELNavigationBar : UIView
 
+@property (copy, nonatomic) UIColor *titleColor;
 
 @end
-

@@ -10,9 +10,11 @@
 		DEE845FB208B8746007D6AEF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DEE845FA208B8746007D6AEF /* AppDelegate.m */; };
 		DEE845FE208B8746007D6AEF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEE845FD208B8746007D6AEF /* ViewController.m */; };
 		DEE84601208B8746007D6AEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEE845FF208B8746007D6AEF /* Main.storyboard */; };
-		DEE84603208B8748007D6AEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEE84602208B8748007D6AEF /* Assets.xcassets */; };
 		DEE84606208B8748007D6AEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEE84604208B8748007D6AEF /* LaunchScreen.storyboard */; };
 		DEE84609208B8748007D6AEF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DEE84608208B8748007D6AEF /* main.m */; };
+		DEE84611208B8A52007D6AEF /* JELNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = DEE84610208B8A52007D6AEF /* JELNavigationBar.m */; };
+		DEE84613208B9040007D6AEF /* JELNavigationBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEE84612208B9040007D6AEF /* JELNavigationBar.xib */; };
+		DEE84615208C4256007D6AEF /* assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEE84614208C4256007D6AEF /* assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,10 +24,13 @@
 		DEE845FC208B8746007D6AEF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		DEE845FD208B8746007D6AEF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		DEE84600208B8746007D6AEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DEE84602208B8748007D6AEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DEE84605208B8748007D6AEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DEE84607208B8748007D6AEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DEE84608208B8748007D6AEF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DEE8460F208B8A52007D6AEF /* JELNavigationBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JELNavigationBar.h; sourceTree = "<group>"; };
+		DEE84610208B8A52007D6AEF /* JELNavigationBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JELNavigationBar.m; sourceTree = "<group>"; };
+		DEE84612208B9040007D6AEF /* JELNavigationBar.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JELNavigationBar.xib; sourceTree = "<group>"; };
+		DEE84614208C4256007D6AEF /* assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,10 +68,13 @@
 				DEE845FC208B8746007D6AEF /* ViewController.h */,
 				DEE845FD208B8746007D6AEF /* ViewController.m */,
 				DEE845FF208B8746007D6AEF /* Main.storyboard */,
-				DEE84602208B8748007D6AEF /* Assets.xcassets */,
 				DEE84604208B8748007D6AEF /* LaunchScreen.storyboard */,
 				DEE84607208B8748007D6AEF /* Info.plist */,
 				DEE84608208B8748007D6AEF /* main.m */,
+				DEE8460F208B8A52007D6AEF /* JELNavigationBar.h */,
+				DEE84610208B8A52007D6AEF /* JELNavigationBar.m */,
+				DEE84612208B9040007D6AEF /* JELNavigationBar.xib */,
+				DEE84614208C4256007D6AEF /* assets.xcassets */,
 			);
 			path = PullTableViewHeaderBigger;
 			sourceTree = "<group>";
@@ -129,7 +137,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DEE84606208B8748007D6AEF /* LaunchScreen.storyboard in Resources */,
-				DEE84603208B8748007D6AEF /* Assets.xcassets in Resources */,
+				DEE84613208B9040007D6AEF /* JELNavigationBar.xib in Resources */,
+				DEE84615208C4256007D6AEF /* assets.xcassets in Resources */,
 				DEE84601208B8746007D6AEF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -142,6 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DEE845FE208B8746007D6AEF /* ViewController.m in Sources */,
+				DEE84611208B8A52007D6AEF /* JELNavigationBar.m in Sources */,
 				DEE84609208B8748007D6AEF /* main.m in Sources */,
 				DEE845FB208B8746007D6AEF /* AppDelegate.m in Sources */,
 			);
@@ -286,6 +296,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3YXC9UK8MK;
 				INFOPLIST_FILE = PullTableViewHeaderBigger/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +314,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3YXC9UK8MK;
 				INFOPLIST_FILE = PullTableViewHeaderBigger/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
