@@ -1,3 +1,3 @@
 # PullTableViewHeaderBigger
 
-![截圖](https://www.dropbox.com/s/1t6lrxrxf6srfe9/PullTableViewHeaderBigger.gif?dl=0)
+![截圖](https://github.com/gogo0126/PullTableViewHeaderBigger/blob/master/PullTableViewHeaderBigger.gif)
